@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_vangogh.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_vangogh-ap1a-user \
-    lineage_vangogh-ap1a-userdebug \
-    lineage_vangogh-ap1a-eng
+    lineage_vangogh-ap2a-user \
+    lineage_vangogh-ap2a-userdebug \
+    lineage_vangogh-ap2a-eng
