@@ -483,16 +483,14 @@
     <bool name="config_supportScreenOffFod">true</bool>
     <bool name="config_supportScreenOffUdfps">true</bool>
 
+    <!-- Type of the udfps long press sensor. Empty if long press is not supported. -->
+    <string name="config_dozeUdfpsLongPressSensorType" translatable="false">org.lineageos.sensor.udfps</string>
+
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false" >
-      <!--
-        <item>sensorLocationX</item>
-        <item>sensorLocationY</item>
-        <item>sensorRadius</item>
-      -->
-        <item>540</item>
-        <item>2120</item>
-        <item>95</item>
+        <item>540</item> <!-- sensorLocationX -->
+        <item>2164</item> <!-- sensorLocationY -->
+        <item>91</item> <!-- sensorRadius -->
     </integer-array>
 
     <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
