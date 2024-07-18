@@ -20,7 +20,7 @@
     <dimen name="status_bar_header_height_keyguard">@*android:dimen/status_bar_height</dimen>
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
-    <dimen name="keyguard_carrier_text_margin">40dp</dimen>
+    <dimen name="keyguard_carrier_text_margin">15dp</dimen>
     
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">15dp</dimen>
